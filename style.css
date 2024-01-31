@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; /*yeh side ka box define krne ke liye */
+}
+
+.container {
+    background-color: #e5e5fd;
+    min-height: 1080px;
+    border: 10px solid #1d1e4c
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.top_section{
+    margin-top: 100px;
+    /* margin-bottom: 70px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top_section h1{
+    font-size: 55px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+}
+.top_section h4{
+    text-align: end;
+    font-size: 30px;
+}
+
+.image_container{
+    border-radius: 40%;
+    overflow: hidden;
+}
+
+.image_container , img{
+    width: 250px;
+    height: 300px;
+    /* margin: 0 , auto; */
+    /* border: 1.5px solid black; */
+}
+
+.about_section{
+    margin-top: 100px;
+}
+
+.about_section h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about_section p{
+    font-size: 20px;
+    line-height: 33px;
+    text-align: justify;
+}
+.biography_section{
+    margin-top: 60px;
+    /* max-width: 700px; */
+}
+.biography_section h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.biography_section ul{
+    margin-left: 50px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+footer{
+    margin: 50px  0;
+    text-align: end;
+}
